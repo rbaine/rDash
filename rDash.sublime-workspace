@@ -288,12 +288,27 @@
 	"buffers":
 	[
 		{
-			"contents": "{\n    \"system_info\": {\n        \"hostname\": \"raspberrypi\",\n        \"uptime\": 182741.807127941\n    },\n    \"monit\": {\n        \"loadavg\": [\n            0.01318359375,\n            0.0341796875,\n            0.04541015625\n        ],\n        \"total_mem\": 972111872,\n        \"free_mem\": 61628416,\n        \"cpu\": [\n            {\n                \"model\": \"ARMv7 Processor rev 5 (v7l)\",\n                \"speed\": 600,\n                \"times\": {\n                    \"user\": 6598300,\n                    \"nice\": 0,\n                    \"sys\": 9877600,\n                    \"idle\": 1768837900,\n                    \"irq\": 14800\n                }\n            },\n            {\n                \"model\": \"ARMv7 Processor rev 5 (v7l)\",\n                \"speed\": 600,\n                \"times\": {\n                    \"user\": 5390600,\n                    \"nice\": 0,\n                    \"sys\": 4944900,\n                    \"idle\": 1808577500,\n                    \"irq\": 0\n                }\n            },\n            {\n                \"model\": \"ARMv7 Processor rev 5 (v7l)\",\n                \"speed\": 600,\n                \"times\": {\n                    \"user\": 3700800,\n                    \"nice\": 0,\n                    \"sys\": 4113300,\n                    \"idle\": 1813543800,\n                    \"irq\": 0\n                }\n            },\n            {\n                \"model\": \"ARMv7 Processor rev 5 (v7l)\",\n                \"speed\": 600,\n                \"times\": {\n                    \"user\": 3709600,\n                    \"nice\": 0,\n                    \"sys\": 4175700,\n                    \"idle\": 1815584000,\n                    \"irq\": 0\n                }\n            }\n        ],\n        \"interfaces\": {\n            \"lo\": [\n                {\n                    \"address\": \"127.0.0.1\",\n                    \"family\": \"IPv4\",\n                    \"internal\": true\n                }\n            ],\n            \"wlan0\": [\n                {\n                    \"address\": \"192.168.1.29\",\n                    \"family\": \"IPv4\",\n                    \"internal\": false\n                }\n            ]\n        }\n    },\n    \"processes\": [\n        {\n            \"pid\": 12930,\n            \"name\": \"iTrack 2.0\",\n            \"pm2_env\": {\n                \"name\": \"iTrack 2.0\",\n                \"vizion\": true,\n                \"pmx\": true,\n                \"autorestart\": true,\n                \"treekill\": true,\n                \"exec_mode\": \"fork_mode\",\n                \"exec_interpreter\": \"node\",\n                \"pm_exec_path\": \"/opt/node/iTrack-Server/www-srvc.js\",\n                \"env\": {\n                    \"OLDPWD\": \"/opt/node\",\n                    \"_\": \"/usr/bin/pm2\",\n                    \"SSH_CONNECTION\": \"192.168.1.34 61262 192.168.1.29 22\",\n                    \"LOGNAME\": \"rbaine\",\n                    \"HOME\": \"/home/rbaine\",\n                    \"SHLVL\": \"1\",\n                    \"LANG\": \"en_GB.UTF-8\",\n                    \"PWD\": \"/home/rbaine\",\n                    \"PATH\": \"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games\",\n                    \"MAIL\": \"/var/mail/rbaine\",\n                    \"LS_COLORS\": \"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\",\n                    \"USER\": \"rbaine\",\n                    \"SSH_TTY\": \"/dev/pts/0\",\n                    \"SSH_CLIENT\": \"192.168.1.34 61262 22\",\n                    \"SHELL\": \"/bin/bash\",\n                    \"TERM\": \"xterm-256color\",\n                    \"pm_cwd\": \"/opt/node/iTrack-Server\",\n                    \"iTrack 2.0\": {},\n                    \"NODE_PATH\": \"/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript\"\n                },\n                \"pm_cwd\": \"/opt/node/iTrack-Server\",\n                \"instances\": 1,\n                \"node_args\": [],\n                \"pm_out_log_path\": \"/home/rbaine/.pm2/logs/iTrack-2.0-out-0.log\",\n                \"pm_err_log_path\": \"/home/rbaine/.pm2/logs/iTrack-2.0-error-0.log\",\n                \"pm_pid_path\": \"/home/rbaine/.pm2/pids/iTrack-2.0-0.pid\",\n                \"NODE_APP_INSTANCE\": 0,\n                \"TERM\": \"xterm-256color\",\n                \"SHELL\": \"/bin/bash\",\n                \"SSH_CLIENT\": \"192.168.1.34 61262 22\",\n                \"SSH_TTY\": \"/dev/pts/0\",\n                \"USER\": \"rbaine\",\n                \"LS_COLORS\": \"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\",\n                \"MAIL\": \"/var/mail/rbaine\",\n                \"PATH\": \"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games\",\n                \"PWD\": \"/home/rbaine\",\n                \"LANG\": \"en_GB.UTF-8\",\n                \"SHLVL\": \"1\",\n                \"HOME\": \"/home/rbaine\",\n                \"LOGNAME\": \"rbaine\",\n                \"SSH_CONNECTION\": \"192.168.1.34 61262 192.168.1.29 22\",\n                \"_\": \"/usr/bin/pm2\",\n                \"OLDPWD\": \"/opt/node\",\n                \"status\": \"online\",\n                \"pm_uptime\": 1449293730371,\n                \"axm_actions\": [],\n                \"axm_monitor\": {\n                    \"Loop delay\": {\n                        \"value\": \"4.55ms\",\n                        \"agg_type\": \"avg\",\n                        \"alert\": {}\n                    }\n                },\n                \"axm_options\": {\n                    \"http\": false,\n                    \"http_latency\": 200,\n                    \"http_code\": 500,\n                    \"ignore_routes\": [],\n                    \"profiling\": true,\n                    \"errors\": true,\n                    \"alert_enabled\": true,\n                    \"custom_probes\": true,\n                    \"network\": false,\n                    \"ports\": false,\n                    \"module_conf\": {},\n                    \"module_name\": \"iTrack 2.0\",\n                    \"error\": true\n                },\n                \"axm_dynamic\": {},\n                \"vizion_running\": false,\n                \"created_at\": 1449293730231,\n                \"pm_id\": 0,\n                \"restart_time\": 1,\n                \"unstable_restarts\": 0,\n                \"started_inside\": false,\n                \"command\": {\n                    \"locked\": false,\n                    \"metadata\": {},\n                    \"started_at\": null,\n                    \"finished_at\": null,\n                    \"error\": null\n                },\n                \"versioning\": {\n                    \"type\": \"git\",\n                    \"url\": \"https://github.com/siir/iTrack-Server.git\",\n                    \"revision\": \"6f4dedb1d684c5c1d87517f10843ac3643acc1f5\",\n                    \"update_time\": \"2015-12-03T05:10:47.000Z\",\n                    \"comment\": \"Merge pull request #32 from siir/tests/pixl-mail\",\n                    \"unstaged\": false,\n                    \"branch\": \"master\",\n                    \"remotes\": [\n                        \"origin\"\n                    ],\n                    \"remote\": \"origin\",\n                    \"branch_exists_on_remote\": true,\n                    \"ahead\": false,\n                    \"next_rev\": null,\n                    \"prev_rev\": \"eae7651837bfa4157d862f4f2a6a7229e0f09d39\",\n                    \"repo_path\": \"/opt/node/iTrack-Server\"\n                },\n                \"watch\": true,\n                \"exit_code\": 130,\n                \"NODE_PATH\": \"/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript\"\n            },\n            \"pm_id\": 0,\n            \"monit\": {\n                \"memory\": 30531584,\n                \"cpu\": 0\n            }\n        },\n        {\n            \"pid\": 12988,\n            \"name\": \"pm2-http-interface\",\n            \"pm2_env\": {\n                \"name\": \"pm2-http-interface\",\n                \"exec_mode\": \"fork_mode\",\n                \"exec_interpreter\": \"node\",\n                \"pm_exec_path\": \"/usr/lib/node_modules/pm2/lib/HttpInterface.js\",\n                \"env\": {\n                    \"_\": \"/usr/bin/pm2\",\n                    \"SSH_CONNECTION\": \"192.168.1.34 61262 192.168.1.29 22\",\n                    \"LOGNAME\": \"rbaine\",\n                    \"HOME\": \"/home/rbaine\",\n                    \"SHLVL\": \"1\",\n                    \"NODE_PATH\": \"/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript\",\n                    \"LANG\": \"en_GB.UTF-8\",\n                    \"PWD\": \"/home/rbaine\",\n                    \"PATH\": \"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games\",\n                    \"MAIL\": \"/var/mail/rbaine\",\n                    \"LS_COLORS\": \"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\",\n                    \"USER\": \"rbaine\",\n                    \"SSH_TTY\": \"/dev/pts/0\",\n                    \"SSH_CLIENT\": \"192.168.1.34 61262 22\",\n                    \"SHELL\": \"/bin/bash\",\n                    \"TERM\": \"xterm-256color\",\n                    \"pm_cwd\": \"/home/rbaine\",\n                    \"pm2-http-interface\": {}\n                },\n                \"pm_cwd\": \"/home/rbaine\",\n                \"instances\": 1,\n                \"node_args\": [],\n                \"pm_out_log_path\": \"/home/rbaine/.pm2/logs/pm2-http-interface-out-1.log\",\n                \"pm_err_log_path\": \"/home/rbaine/.pm2/logs/pm2-http-interface-error-1.log\",\n                \"pm_pid_path\": \"/home/rbaine/.pm2/pids/pm2-http-interface-1.pid\",\n                \"NODE_APP_INSTANCE\": 0,\n                \"TERM\": \"xterm-256color\",\n                \"SHELL\": \"/bin/bash\",\n                \"SSH_CLIENT\": \"192.168.1.34 61262 22\",\n                \"SSH_TTY\": \"/dev/pts/0\",\n                \"USER\": \"rbaine\",\n                \"LS_COLORS\": \"rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\",\n                \"MAIL\": \"/var/mail/rbaine\",\n                \"PATH\": \"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games\",\n                \"PWD\": \"/home/rbaine\",\n                \"LANG\": \"en_GB.UTF-8\",\n                \"NODE_PATH\": \"/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript\",\n                \"SHLVL\": \"1\",\n                \"HOME\": \"/home/rbaine\",\n                \"LOGNAME\": \"rbaine\",\n                \"SSH_CONNECTION\": \"192.168.1.34 61262 192.168.1.29 22\",\n                \"_\": \"/usr/bin/pm2\",\n                \"status\": \"online\",\n                \"pm_uptime\": 1449293789620,\n                \"axm_actions\": [],\n                \"axm_monitor\": {\n                    \"Loop delay\": {\n                        \"value\": \"0.96ms\",\n                        \"agg_type\": \"avg\",\n                        \"alert\": {}\n                    }\n                },\n                \"axm_options\": {\n                    \"http\": false,\n                    \"http_latency\": 200,\n                    \"http_code\": 500,\n                    \"ignore_routes\": [],\n                    \"profiling\": true,\n                    \"errors\": true,\n                    \"alert_enabled\": true,\n                    \"custom_probes\": true,\n                    \"network\": false,\n                    \"ports\": false,\n                    \"module_conf\": {},\n                    \"module_name\": \"pm2-http-interface\",\n                    \"error\": true\n                },\n                \"axm_dynamic\": {},\n                \"vizion_running\": false,\n                \"created_at\": 1449293789620,\n                \"pm_id\": 1,\n                \"restart_time\": 0,\n                \"unstable_restarts\": 0,\n                \"started_inside\": false,\n                \"command\": {\n                    \"locked\": false,\n                    \"metadata\": {},\n                    \"started_at\": null,\n                    \"finished_at\": null,\n                    \"error\": null\n                },\n                \"versioning\": null\n            },\n            \"pm_id\": 1,\n            \"monit\": {\n                \"memory\": 18509824,\n                \"cpu\": 0\n            }\n        }\n    ]\n}",
+			"file": "src/js/controllers/master-ctrl.js",
 			"settings":
 			{
-				"buffer_size": 16575,
-				"line_ending": "Unix",
-				"name": "{"
+				"buffer_size": 1616,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/rdash-ui/dist/css/rdash.css",
+			"settings":
+			{
+				"buffer_size": 10027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/dashboard.html",
+			"settings":
+			{
+				"buffer_size": 4342,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -361,13 +376,16 @@
 	[
 		"/Users/rbaine/Documents/dev/js/rdash-angular",
 		"/Users/rbaine/Documents/dev/js/rdash-angular/src",
+		"/Users/rbaine/Documents/dev/js/rdash-angular/src/components",
+		"/Users/rbaine/Documents/dev/js/rdash-angular/src/components/rdash-ui",
 		"/Users/rbaine/Documents/dev/js/rdash-angular/src/components/rdash-ui/dist",
-		"/Users/rbaine/Documents/dev/js/rdash-angular/src/components/rdash-ui/fonts",
-		"/Users/rbaine/Documents/dev/js/rdash-angular/src/js/controllers",
-		"/Users/rbaine/Documents/dev/js/rdash-angular/src/templates"
+		"/Users/rbaine/Documents/dev/js/rdash-angular/src/components/rdash-ui/dist/css",
+		"/Users/rbaine/Documents/dev/js/rdash-angular/src/js/controllers"
 	],
 	"file_history":
 	[
+		"/Users/rbaine/Documents/dev/js/rdash-angular/src/js/controllers/alert-ctrl.js",
+		"/Users/rbaine/Documents/dev/js/rdash-angular/README.md",
 		"/usr/local/lib/node_modules/pm2-web/config.json",
 		"/Users/rbaine/Desktop/pm2-web/node_modules/pm2-web/config.json",
 		"/Users/rbaine/Documents/dev/js/iTrack-Build/.gitignore",
@@ -549,35 +567,96 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "src/js/controllers/master-ctrl.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16575,
+						"buffer_size": 1616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14965,
-								14965
+								436,
+								436
 							]
 						],
 						"settings":
 						{
-							"auto_name": "{",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 5.0,
-						"translation.y": 1471.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/rdash-ui/dist/css/rdash.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3588.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								892,
+								892
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
